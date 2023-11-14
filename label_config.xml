@@ -11,7 +11,7 @@
     <View style="font-size: 18px; border: 1px solid #e8e8e8; background: rgba(0, 0, 0, 0.01);
                  margin-bottom: 0.5em; border-radius: 5px; padding: 20px 10px;
                  overflow-wrap: break-word; height: 300px; overflow-y: auto;">
-      <Text name="text" value="$text"/>
+      <Text name="text" value="$highlight"/>
     </View>
   </View>
 
@@ -32,9 +32,10 @@
     <Choices name="emotion" toName="text" showInLine="true" choice="single-radio" required="true">
       <Choice value="Happy" hotkey="h" />
       <Choice value="Sad" hotkey="s" />
+      <Choice value="Fear" hotkey="f" />
       <Choice value="Angry" hotkey="a" />
-      <Choice value="Surprised" hotkey="su" />
-      <Choice value="Disgusted" hotkey="d" />
+      <Choice value="Love" hotkey="l" />
+      <Choice value="Neutral" hotkey="n" />
     </Choices>
   </View>
 </View>
